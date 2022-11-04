@@ -5,14 +5,14 @@ const Header = () => {
     return (
         <div id='header'>
             <div id='name'>
-                <h2><a href='#'>HyoYoung's</a></h2>
+                <h2><a href='/'>HyoYoung's</a></h2>
             </div>
             <div id='list'>
                 <ul>
-                    <li><span></span><a href='#'>ABOUT ME</a></li>
-                    <li><span></span><a href='#'>SKILLS</a></li>
-                    <li><span></span><a href='#'>PROJECT</a></li>
-                    <li><span></span><a href='#'>CAREER</a></li>
+                    <li><span></span><a href='/'>ABOUT ME</a></li>
+                    <li><span></span><a href='/skills'>SKILLS</a></li>
+                    <li><span></span><a href='/project'>PROJECT</a></li>
+                    <li><span></span><a href='/career'>CAREER</a></li>
                 </ul>
             </div>
         </div>

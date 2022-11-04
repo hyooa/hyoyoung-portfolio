@@ -1,0 +1,187 @@
+#project {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 100px;
+
+    >h1 {
+        font-size: 60px;
+        color: #fff;
+        background-color: #fc1a40;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 20%;
+        height: 30px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        text-shadow: 1px 1px #ccc;
+    }
+
+    #projectBox {
+        width: 100%;
+
+        .whiteBox {
+            padding-right: 30px;
+            border-radius: 34px;
+            width: 75%;
+            height: 800px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:not(:first-child) {
+                margin: 50px auto;
+            }
+
+            >div {
+                &:first-child {
+                    width: 60%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+
+                    .pc {
+                        width: 90%;
+                        padding-left: 100px;
+                        z-index: 10;
+                    }
+
+                    .tablet {
+                        width: 30%;
+                        position: absolute;
+                        bottom: 50px;
+                        left: 50px;
+                        z-index: 10;
+                    }
+
+                    .mobile {
+                        width: 15%;
+                        position: absolute;
+                        bottom: 50px;
+                        left: 350px;
+                        z-index: 10;
+                    }
+
+                    .img {
+                        background-color: #ccc;
+                        position: absolute;
+                        width: 680px;
+                        height: 334px;
+                        top: 93px;
+                        left: 170px;
+                    }
+
+                    .img2 {
+                        border-radius: 5px;
+                        background-color: #eee;
+                        position: absolute;
+                        width: 255px;
+                        height: 352px;
+                        bottom: 65px;
+                        left: 65px;
+                    }
+
+                    .img3 {
+                        border-radius: 15px;
+                        background-color: #999;
+                        position: absolute;
+                        width: 140px;
+                        height: 270px;
+                        bottom: 55px;
+                        left: 350px;
+                    }
+                }
+
+                &:last-child {
+                    width: 40%;
+                    height: 100%;
+                    text-align: left;
+
+                    h3 {
+                        font-size: 40px;
+                        padding: 50px 0 30px;
+                    }
+
+                    #info {
+                        border-bottom: 1px solid #ccc;
+                        padding-bottom: 30px;
+                        margin-bottom: 30px;
+
+                        ul {
+                            li {
+                                span {
+                                    padding: 3px 8px;
+                                    background-color: #fbedea;
+                                }
+                            }
+
+                            &:nth-child(1) {
+                                font-size: 20px;
+                                padding-bottom: 30px;
+                            }
+
+                            &:nth-child(2) {
+                                line-height: 2.5;
+                                font-size: 18px;
+                                padding-bottom: 20px;
+                            }
+
+                            &:nth-child(3) {
+                                line-height: 2.5;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+
+                    #link {
+                        ul {
+                            li {
+                                font-size: 18px;
+                                line-height: 2;
+
+                                span {
+                                    padding-right: 30px;
+                                }
+
+                                a {
+                                    text-decoration: underline;
+                                    color: #fc1a40;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .boxTwo {
+            >div:first-child {
+                >div {
+                    .pc {
+                        width: 100%;
+                        z-index: 10;
+                        padding-right: 100px;
+                    }
+                    .img {
+                        background-color: rebeccapurple;
+                        position: absolute;
+                        width: 690px;
+                        height: 340px;
+                        top: 87px;
+                        left: 120px;
+                    }
+                }
+            }
+        }
+        .boxThr {
+        }
+    }
+}

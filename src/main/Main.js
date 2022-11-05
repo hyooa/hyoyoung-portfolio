@@ -4,8 +4,8 @@ import { IoIosMail } from 'react-icons/io';
 import { MdPhoneIphone } from 'react-icons/md';
 import { AiFillGithub } from 'react-icons/ai';
 import { SiNaver } from 'react-icons/si';
-import { FaUserGraduate } from 'react-icons/fa';
-import { TbCertificate } from 'react-icons/tb';
+import { FaUserGraduate, FaRegAddressCard } from 'react-icons/fa';
+import { TbCertificate } from 'react-icons/tb'; 
 
 const Main = () => {
     return (
@@ -23,7 +23,7 @@ const Main = () => {
                 </div>
                 <div id='introduce'>
                     <div id='top'>
-                        <div><h1>배움을 가치있는 결과로 창출 해내는 권효영입니다.</h1></div>
+                        <div><span>"</span><h1>귀여운 귀여운 귀여운 귀여운 권효영입니다.</h1><span>"</span></div>
                         <div>
                             프론트엔드 개발자를 희망하고 있습니다.<br></br>
                             배운 모든 것을 기록하고 공유하는 것을 좋아합니다.<br></br>
@@ -84,14 +84,11 @@ const Main = () => {
                             </div>
                             <div>
                                 <div>
-                                    <TbCertificate size='35' />
+                                    <FaRegAddressCard size='35' />
                                 </div>
                                 <ul>
-                                    <li>자격증</li>
-                                    <li>
-                                        <ol>운전면허</ol>
-                                        <ol>전산회계 1급</ol>
-                                    </li>
+                                    <li>주소지</li>
+                                    <li>서울 송파구</li>
                                 </ul>
                             </div>
                         </div>

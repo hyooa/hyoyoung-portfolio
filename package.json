@@ -15,6 +15,8 @@
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
+    "swiper": "^6.8.4",
+    "swiper-slides": "^0.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

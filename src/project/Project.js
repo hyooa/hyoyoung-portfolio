@@ -1,5 +1,6 @@
 import React from 'react';
 import './project.scss';
+import { Carousel } from 'antd';
 
 const Project = () => {
     return (
@@ -8,9 +9,24 @@ const Project = () => {
             <div id='projectBox'>
                 <div className='whiteBox'>
                     <div>
-                        <div>
+                        <div id='swiper'>
                             <img className='pc' src='./image/pc.png' alt=''></img>
-                            <img className='img' src='./image/hyo.png' alt=''></img>
+                            <div id='mySw'>
+                                <Carousel autoplay>
+                                    <div>
+                                        <img src='./image/port.jpg' alt=''></img>
+                                    </div>
+                                    <div>
+                                        <img src='./image/port2.jpg' alt=''></img>
+                                    </div>
+                                    <div>
+                                        <img src='./image/port3.jpg' alt=''></img>
+                                    </div>
+                                    {/* <div>
+                                        <img src='./image/hyo.png' alt=''></img>
+                                    </div> */}
+                                </Carousel>
+                            </div>
                         </div>
                         <div>
                             <img className='tablet' src='./image/tablet.png' alt=''></img>
@@ -55,13 +71,28 @@ const Project = () => {
                 </div>
                 <div className='whiteBox boxTwo'>
                     <div>
-                        <div>
+                        <div id='swiper' className='swiper2'>
                             <img className='pc' src='./image/pc.png' alt=''></img>
-                            <img className='img' src='./image/hyo.png' alt=''></img>
+                            <div id='mySw'>
+                                <Carousel autoplay>
+                                    <div>
+                                        <img src='./image/port.jpg' alt=''></img>
+                                    </div>
+                                    <div>
+                                        <img src='./image/port2.jpg' alt=''></img>
+                                    </div>
+                                    <div>
+                                        <img src='./image/port3.jpg' alt=''></img>
+                                    </div>
+                                    {/* <div>
+                                        <img src='./image/hyo.png' alt=''></img>
+                                    </div> */}
+                                </Carousel>
+                            </div>
                         </div>
                     </div>
                     <div>
-                        <h3>Portfolio</h3>
+                        <h3>Chelsea Football Club</h3>
                         <div id='info'>
                             <ul>
                                 <li>
@@ -75,7 +106,7 @@ const Project = () => {
                             </ul>
                             <ul>
                                 <li><span>참여인원</span> : 1인</li>
-                                <li><span>개발기간</span> : 2022. 11. 01. ~ 2022. 11. 05.</li>
+                                <li><span>개발기간</span> : 2022. 08. ~ 2022. 10.</li>
                             </ul>
                             <ul>
                                 <li><span>Client</span> : React, Node.js, SCSS</li>
@@ -94,13 +125,28 @@ const Project = () => {
                 </div>
                 <div className='whiteBox boxThr'>
                     <div>
-                        <div>
+                        <div id='swiper' className='swiper3'>
                             <img className='pc' src='./image/pc.png' alt=''></img>
-                            <img className='img' src='./image/hyo.png' alt=''></img>
+                            <div id='mySw'>
+                                <Carousel autoplay>
+                                    <div>
+                                        <img src='./image/port.jpg' alt=''></img>
+                                    </div>
+                                    <div>
+                                        <img src='./image/port2.jpg' alt=''></img>
+                                    </div>
+                                    <div>
+                                        <img src='./image/port3.jpg' alt=''></img>
+                                    </div>
+                                    {/* <div>
+                                        <img src='./image/hyo.png' alt=''></img>
+                                    </div> */}
+                                </Carousel>
+                            </div>
                         </div>
                     </div>
                     <div>
-                        <h3>Portfolio</h3>
+                        <h3>TypeScript TodoList</h3>
                         <div id='info'>
                             <ul>
                                 <li>
@@ -114,7 +160,7 @@ const Project = () => {
                             </ul>
                             <ul>
                                 <li><span>참여인원</span> : 1인</li>
-                                <li><span>개발기간</span> : 2022. 11. 01. ~ 2022. 11. 05.</li>
+                                <li><span>개발기간</span> : 2022. 11. 05. ~ 2022. 11. 06.</li>
                             </ul>
                             <ul>
                                 <li><span>Client</span> : React, Node.js, SCSS</li>

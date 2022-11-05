@@ -9,6 +9,38 @@
     font-family: 'Noto Sans KR', sans-serif;
     padding-top: 100px;
 
+    // 스와이퍼
+    #swiper {
+
+        .slick-track {
+            display: flex;
+        }
+
+        .slick-dots-bottom {
+            transform: rotate(-90deg);
+            text-align: center;
+            width: 10%;
+            padding-left: 100px;
+
+            .slick-active button {
+                background-color: yellow;
+            }
+
+            li button {
+                color: rgba(255, 255, 255, 0);
+                border-radius: 50%;
+                border: none;
+                padding: 0px 4px;
+            }
+        }
+
+        >div>img {
+            height: 300px;
+            width: 100%;
+            background-color: antiquewhite;
+        }
+    }
+
     >h1 {
         font-size: 60px;
         color: #fff;
@@ -49,6 +81,21 @@
                     justify-content: center;
                     position: relative;
 
+                    // 스와이퍼
+                    #mySw {
+                        overflow: hidden;
+                        position: absolute;
+                        width: 680px;
+                        height: 334px;
+                        top: 92px;
+                        left: 169px;
+
+                        img {
+                            width: 680px;
+                            height: 334px;
+                        }
+                    }
+
                     .pc {
                         width: 90%;
                         padding-left: 100px;
@@ -71,14 +118,14 @@
                         z-index: 10;
                     }
 
-                    .img {
-                        background-color: #ccc;
-                        position: absolute;
-                        width: 680px;
-                        height: 334px;
-                        top: 93px;
-                        left: 170px;
-                    }
+                    // .img {
+                    //     background-color: #ccc;
+                    //     position: absolute;
+                    //     width: 680px;
+                    //     height: 334px;
+                    //     top: 93px;
+                    //     left: 170px;
+                    // }
 
                     .img2 {
                         border-radius: 5px;
@@ -162,6 +209,7 @@
                 }
             }
         }
+
         .boxTwo {
             >div:first-child {
                 >div {
@@ -170,18 +218,44 @@
                         z-index: 10;
                         padding-right: 100px;
                     }
-                    .img {
-                        background-color: rebeccapurple;
-                        position: absolute;
+                }
+
+                .swiper2 #mySw {
+                    width: 690px;
+                    height: 340px;
+                    top: 86px;
+                    left: 120px;
+
+                    img {
                         width: 690px;
                         height: 340px;
-                        top: 87px;
-                        left: 120px;
                     }
                 }
             }
         }
+
         .boxThr {
+            >div:first-child {
+                >div {
+                    .pc {
+                        width: 100%;
+                        z-index: 10;
+                        padding-right: 100px;
+                    }
+                }
+
+                .swiper3 #mySw {
+                    width: 690px;
+                    height: 340px;
+                    top: 86px;
+                    left: 120px;
+
+                    img {
+                        width: 690px;
+                        height: 340px;
+                    }
+                }
+            }
         }
     }
 }

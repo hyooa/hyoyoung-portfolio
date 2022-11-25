@@ -23,7 +23,7 @@ const Main = () => {
                 </div>
                 <div id='introduce'>
                     <div id='top'>
-                        <div><span>"</span><h1>귀여운 귀여운 귀여운 귀여운 권효영입니다.</h1><span>"</span></div>
+                        <div><span>"</span><h1>프론트엔드 개발자 권효영입니다.</h1><span>"</span></div>
                         <div>
                             프론트엔드 개발자를 희망하고 있습니다.<br></br>
                             배운 모든 것을 기록하고 공유하는 것을 좋아합니다.<br></br>

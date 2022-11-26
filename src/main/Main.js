@@ -5,7 +5,6 @@ import { MdPhoneIphone } from 'react-icons/md';
 import { AiFillGithub } from 'react-icons/ai';
 import { SiNaver } from 'react-icons/si';
 import { FaUserGraduate, FaRegAddressCard } from 'react-icons/fa';
-import { TbCertificate } from 'react-icons/tb'; 
 
 const Main = () => {
     return (
@@ -52,7 +51,7 @@ const Main = () => {
                             </div>
                             <div>
                                 <div>
-                                    <FaUserGraduate size='35' />
+                                    <FaUserGraduate size='30' />
                                 </div>
                                 <ul>
                                     <li>학력</li>
@@ -66,7 +65,7 @@ const Main = () => {
                         <div className='right'>
                             <div>
                                 <div>
-                                    <AiFillGithub size='35' />
+                                    <AiFillGithub size='35' color='#fff' />
                                 </div>
                                 <ul>
                                     <li>Github</li>
@@ -75,7 +74,7 @@ const Main = () => {
                             </div>
                             <div>
                                 <div>
-                                    <SiNaver size='30' />
+                                    <SiNaver size='28' />
                                 </div>
                                 <ul>
                                     <li>블로그</li>

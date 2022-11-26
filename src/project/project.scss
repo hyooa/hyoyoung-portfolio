@@ -49,6 +49,7 @@
         justify-content: center;
         align-items: flex-end;
         width: 18%;
+        min-width: 300px;
         height: 30px;
         margin-bottom: 30px;
         margin-top: 50px;
@@ -58,15 +59,18 @@
     #projectBox {
         width: 100%;
 
+        // 첫번째
         .whiteBox {
             padding-right: 30px;
             border-radius: 34px;
             width: 75%;
+            min-width: 1425px;
             height: 800px;
             background-color: #fff;
             display: flex;
             align-items: center;
             justify-content: center;
+            box-shadow: 5px 5px 6px #dfdfdf;
 
             &:not(:first-child) {
                 margin: 50px auto;
@@ -85,19 +89,23 @@
                     #mySw {
                         overflow: hidden;
                         position: absolute;
-                        width: 680px;
-                        height: 334px;
-                        top: 92px;
-                        left: 169px;
+                        width: 73.5%;
+                        height: 38%;
+                        top: 17%;
+                        left: 14%;
+                        z-index: 11;
 
                         img {
-                            width: 680px;
-                            height: 334px;
+                            width: 100%;
                         }
                     }
 
                     .pc {
+                        position: absolute;
+                        top: 15%;
+                        left: 0%;
                         width: 90%;
+                        height: 72%;
                         padding-left: 100px;
                         z-index: 10;
                     }
@@ -107,7 +115,7 @@
                         position: absolute;
                         bottom: 50px;
                         left: 50px;
-                        z-index: 10;
+                        z-index: 12;
                     }
 
                     .mobile {
@@ -117,15 +125,6 @@
                         left: 350px;
                         z-index: 10;
                     }
-
-                    // .img {
-                    //     background-color: #ccc;
-                    //     position: absolute;
-                    //     width: 680px;
-                    //     height: 334px;
-                    //     top: 93px;
-                    //     left: 170px;
-                    // }
 
                     .img2 {
                         border-radius: 5px;
@@ -154,7 +153,7 @@
                     text-align: left;
 
                     h3 {
-                        font-size: 40px;
+                        font-size: 2.3em;
                         padding: 50px 0 30px;
                     }
 
@@ -172,19 +171,19 @@
                             }
 
                             &:nth-child(1) {
-                                font-size: 20px;
+                                font-size: 1.05em;
                                 padding-bottom: 30px;
                             }
 
                             &:nth-child(2) {
                                 line-height: 2.5;
-                                font-size: 18px;
+                                font-size: 1em;
                                 padding-bottom: 20px;
                             }
 
                             &:nth-child(3) {
                                 line-height: 2.5;
-                                font-size: 18px;
+                                font-size: 1em;
                             }
                         }
                     }
@@ -192,11 +191,18 @@
                     #link {
                         ul {
                             li {
-                                font-size: 18px;
+                                display: flex;
+                                font-size: 1em;
                                 line-height: 2;
 
-                                span {
-                                    padding-right: 30px;
+                                div {
+                                    &:first-child {
+                                        width: 15%;
+                                    }
+
+                                    &:last-child {
+                                        width: 85%;
+                                    }
                                 }
 
                                 a {
@@ -210,30 +216,43 @@
             }
         }
 
+        // 두번째
         .boxTwo {
             >div:first-child {
                 >div {
                     .pc {
                         width: 100%;
+                        height: 82%;
                         z-index: 10;
                         padding-right: 100px;
                     }
                 }
 
                 .swiper2 #mySw {
-                    width: 690px;
-                    height: 340px;
-                    top: 86px;
-                    left: 120px;
+                    width: 72%;
+                    height: 44%;
 
                     img {
-                        width: 690px;
-                        height: 340px;
+                    }
+                }
+            }
+
+            #swiper {
+                .slick-dots-bottom {
+                    padding-left: 220px;
+
+                    li button {
+                        background-color: rgb(189, 189, 189);
+                    }
+
+                    li.slick-active button {
+                        background-color: yellow;
                     }
                 }
             }
         }
 
+        // 세번째
         .boxThr {
             >div:first-child {
                 >div {
@@ -244,15 +263,32 @@
                     }
                 }
 
-                .swiper3 #mySw {
-                    width: 690px;
-                    height: 340px;
-                    top: 86px;
-                    left: 120px;
+                .swiper3 {
+                    #mySw {
+                        width: 300px;
+                        height: 540px;
+                        top: 51%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        border-radius: 15%;
+
+                        img {
+                            width: 900px;
+                            height: 540px;
+                            position: absolute;
+                            top: 1350%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
 
                     img {
-                        width: 690px;
-                        height: 340px;
+                        width: 300px;
+                        height: 550px;
+                        bottom: -20%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        z-index: 100;
                     }
                 }
             }

@@ -17,6 +17,7 @@
         justify-content: center;
         align-items: flex-end;
         width: 18%;
+        min-width: 300px;
         height: 30px;
         margin-bottom: 30px;
         margin-top: 50px;
@@ -26,6 +27,7 @@
     #skillBox {
         border-radius: 34px;
         width: 75%;
+        min-width: 1200px;
         height: 70%;
         background-color: #fff;
         display: flex;
@@ -33,7 +35,7 @@
             width: 25%;
             >div{
                 &:first-child {
-                    font-size: 34px;
+                    font-size: 1.5em;
                     font-weight: 900;
                     display: flex;
                     align-items: center;
@@ -57,7 +59,7 @@
             }
         }
         img {
-            width: 60%;
+            width: 48%;
         }
     }
 }

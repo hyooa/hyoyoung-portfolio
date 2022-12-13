@@ -78,7 +78,7 @@ const Main = () => {
                                 </div>
                                 <ul>
                                     <li>블로그</li>
-                                    <li className='color'><a href='https://github.com/hyooa'>https://github.com/hyooa</a></li>
+                                    <li className='color'><a href='https://blog.naver.com/hyohyo_a'>https://blog.naver.com/hyohyo_a</a></li>
                                 </ul>
                             </div>
                             <div>

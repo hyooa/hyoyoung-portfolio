@@ -218,6 +218,26 @@
 
         // 두번째
         .boxTwo {
+            #info ul:first-child {
+                height: 230px;
+                overflow-y: scroll;
+                margin-bottom: 10px;
+
+                /* 스크롤바 */
+                &::-webkit-scrollbar {
+                    width: 10px;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background: #fc1a40;
+                    border-radius: 10px;
+                }
+
+                &::-webkit-scrollbar-track {
+                    background: #fbedea;
+                }
+            }
+
             >div:first-child {
                 >div {
                     .pc {
@@ -232,8 +252,7 @@
                     width: 72%;
                     height: 44%;
 
-                    img {
-                    }
+                    img {}
                 }
             }
 

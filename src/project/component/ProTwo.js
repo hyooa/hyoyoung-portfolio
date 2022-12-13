@@ -54,14 +54,6 @@ const ProTwo = () => {
                     <ul>
                         <li>
                             <div>
-                                <span>PPT : </span>
-                            </div>
-                            <div>
-                                <a href='https://github.com/hyooa'>X</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
                                 <span>URL : </span>
                             </div>
                             <div>

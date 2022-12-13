@@ -60,7 +60,7 @@ const ProTwo = () => {
                                 <span>URL : </span>
                             </div>
                             <div>
-                                <a href='https://github.com/hyooa'>X</a>
+                                <a href='https://hyo-portfolio.vercel.app/'>https://hyo-portfolio.vercel.app</a>
                             </div>
                         </li>
                         <li>

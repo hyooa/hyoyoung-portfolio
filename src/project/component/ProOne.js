@@ -60,7 +60,7 @@ const ProOne = () => {
                                 <span>URL : </span>
                             </div>
                             <div>
-                                <a href='https://hyoyoung-portfolio.vercel.app/'>https://hyoyoung-portfolio.vercel.app/</a>
+                                <a href='https://hyoyoung-portfolio.vercel.app/'>https://hyoyoung-portfolio.vercel.app</a>
                             </div>
                         </li>
                         <li>

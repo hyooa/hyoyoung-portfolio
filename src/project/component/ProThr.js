@@ -21,12 +21,10 @@ const ProThr = () => {
                 <div id='info'>
                     <ul>
                         <li>
-                            포트폴리오 용도로 제작한 웹사이트입니다.<br></br>
-                            지금 보고 있는 바로 이 웹사이트에 해당합니다.<br></br>
-                            이미 순수 React로 개발을 완료한 프로젝트였지만, Next.js의 학습을 위해<br></br>
-                            이를 Next.js로 다시 개발하였습니다. 그 과정에서 서버 사이드 렌더링을<br></br>
-                            함께 지원하는 Next.js의 위대함을 느낄 수 있었습니다. 또한, Vercel을<br></br>
-                            이용하여 정적 웹사이트의 Lean한 배포도 경험해볼 수 있었습니다.
+                            TypeScript를 기반한 개인프로젝트로 TodoList 사이트를 개발하였습니다.<br></br>
+                            학원 기간이 끝날 때쯤 선생님께서 TypeScript에 대한 장, 단점을 소개해주셨지만 기간이 짧아 깊이 있게 배우지는 못하였습니다.<br></br>
+                            저는 코딩 비전공자이기에 다양한 코드에 대한 경험과 이해가 부족하지만 새로운 언어에 대해서 직접 부딪혀가면서 배우고 극복해 나가고자 하였습니다.<br></br>
+                            먼저 TypeScript를 짧게 배운 것으로만 끝내기 아쉬워 개인 프로젝트를 TypeScript로 활용하며 코드에 익숙해지기 위해서 노력했습니다.
                         </li>
                     </ul>
                     <ul>
@@ -34,9 +32,9 @@ const ProThr = () => {
                         <li><span>개발기간</span> : 2022. 11. 05. ~ 2022. 11. 06.</li>
                     </ul>
                     <ul>
-                        <li><span>Client</span> : React, Node.js, SCSS</li>
+                        <li><span>Client</span> : React, SCSS</li>
                         <li><span>Server</span> : Vercel</li>
-                        <li><span>Library</span> : React, Node.js, SCSS</li>
+                        <li><span>Library</span> : React, SCSS</li>
                     </ul>
                 </div>
                 <div id='link'>

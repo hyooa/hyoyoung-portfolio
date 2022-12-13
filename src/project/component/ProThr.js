@@ -32,7 +32,7 @@ const ProThr = () => {
                         <li><span>개발기간</span> : 2022. 11. 05. ~ 2022. 11. 06.</li>
                     </ul>
                     <ul>
-                        <li><span>Client</span> : React, SCSS</li>
+                        <li><span>Client</span> : React, TypeScript, SCSS</li>
                         <li><span>Server</span> : Vercel</li>
                         <li><span>Library</span> : React, SCSS</li>
                     </ul>

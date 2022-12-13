@@ -219,9 +219,11 @@
         // 두번째
         .boxTwo {
             #info ul:first-child {
+                padding: 10px;
                 height: 230px;
                 overflow-y: scroll;
                 margin-bottom: 10px;
+                background-color: #f9f9f9;
 
                 /* 스크롤바 */
                 &::-webkit-scrollbar {
@@ -307,7 +309,7 @@
                         bottom: -20%;
                         left: 50%;
                         transform: translate(-50%, -50%);
-                        z-index: 100;
+                        z-index: 12;
                     }
                 }
             }

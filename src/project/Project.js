@@ -1,4 +1,6 @@
 import React from 'react';
+import ProFive from './component/ProFive';
+import ProFour from './component/ProFour';
 import ProOne from './component/ProOne';
 import ProThr from './component/ProThr';
 import ProTwo from './component/ProTwo';
@@ -12,6 +14,8 @@ const Project = () => {
                 <ProOne />
                 <ProTwo />
                 <ProThr />
+                <ProFour />
+                <ProFive />
             </div>
         </div>
     );

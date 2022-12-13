@@ -45,7 +45,7 @@ const ProTwo = () => {
                         <li><span>개발기간</span> : 2022. 08. ~ 2022. 10.</li>
                     </ul>
                     <ul>
-                        <li><span>Client</span> : React, Node.js, SCSS</li>
+                        <li><span>Client</span> : React, Node.js, JavaScript, SCSS</li>
                         <li><span>Server</span> : Heroku, Vercel</li>
                         <li><span>Library</span> : React, Node.js, SCSS</li>
                     </ul>

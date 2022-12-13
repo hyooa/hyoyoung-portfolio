@@ -47,7 +47,7 @@ const ProOne = () => {
                         <li><span>개발기간</span> : 2022. 11. 01. ~ 2022. 11. 05.</li>
                     </ul>
                     <ul>
-                        <li><span>Client</span> : React, SCSS</li>
+                        <li><span>Client</span> : React, JavaScript, SCSS</li>
                         <li><span>Server</span> : Vercel</li>
                         <li><span>Library</span> : React, SCSS</li>
                     </ul>

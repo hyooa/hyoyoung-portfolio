@@ -11,11 +11,12 @@ const Skills = () => {
                     <div>
                         <ul>
                             <li><img src='./image/html.jpg' alt=''></img></li>
+                            <li><img src='./image/nodejs.png' alt=''></img></li>
                         </ul>
                     </div>
                 </div>
                 <div>
-                    <div>Backend/DataBase</div>
+                    <div>Backend</div>
                     <div>
                         <ul>
                             <li><img src='./image/PHP.png' alt=''></img></li>

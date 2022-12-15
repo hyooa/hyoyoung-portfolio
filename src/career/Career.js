@@ -69,6 +69,12 @@ const Career = () => {
                                     </li>
                                 </ul>
                                 <ul>
+                                    <li>TypeScript</li>
+                                    <li>
+                                        간단한 TodoList 제작 가능
+                                    </li>
+                                </ul>
+                                <ul>
                                     <li>jQuery</li>
                                     <li>
                                         JQuery를 사용하여 마우스 휠 이벤트, 스크롤 이벤트 등을 활용가능

@@ -1,9 +1,13 @@
 import React from 'react';
 import { Carousel } from 'antd';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const ProThr = () => {
+    Aos.init();
+
     return (
-        <div className='whiteBox boxThr'>
+        <div className='whiteBox boxThr' data-aos="fade-up">
             <div>
                 <div id='swiper' className='swiper3'>
                     <img className='mobile' src='./image/mobile.png' alt=''></img>

@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div id='header'>
             <div id='name'>
-                <h2><a href='/'>HyoYoung's</a></h2>
+                <h2><a href='/'>Portfolio</a></h2>
             </div>
             <div id='list'>
                 <ul>

@@ -22,13 +22,17 @@ const Main = () => {
                 </div>
                 <div id='introduce'>
                     <div id='top'>
-                        <div><span>"</span><h1>프론트엔드 개발자 권효영입니다.</h1><span>"</span></div>
                         <div>
+                            {/* <span>"</span> */}
+                            <h1>안녕하세요!<br></br>프론트엔드 개발자 <span>권효영</span>입니다.</h1>
+                            {/* <span>"</span> */}
+                        </div>
+                        {/* <div>
                             저는 비전공자이고 제가 배운 6개월이란 시간이 짧다면 짧은 시간이라는 것을 압니다.<br></br>
                             그렇기에 단기적인 제 목표는 부족한 부분을 꾸준한 배움을 통해 성장시켜나가,<br></br>
                             프론트엔드 개발자에 그치는 것이 아닌 풀 스택 개발자가 되는 것입니다.<br></br>
                             그리고 웹 개발, 앱 개발, 게임개발 등 여러 분야에 도전해보는 것이 저의 장기적인 목표입니다.
-                        </div>
+                        </div> */}
                     </div>
                     <div id='bottom'>
                         <div className='left'>

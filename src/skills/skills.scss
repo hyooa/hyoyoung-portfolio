@@ -31,12 +31,17 @@
         height: 70%;
         background-color: #fff;
         display: flex;
+        .version {
+            img {
+                width: 60%;
+            }
+        }
         > div {
             width: 25%;
             >div{
                 &:first-child {
-                    font-size: 1.5em;
-                    font-weight: 900;
+                    font-size: 1.3em;
+                    padding-top: 10px;
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -59,7 +64,7 @@
             }
         }
         img {
-            width: 48%;
+            width: 45%;
         }
     }
 }

@@ -21,9 +21,9 @@ const ProThr = () => {
                 <div id='info'>
                     <ul>
                         <li>
-                            TypeScript를 기반한 개인프로젝트로 TodoList 사이트를 개발하였습니다.<br></br>
+                            <strong>TypeScript</strong>를 기반한 개인프로젝트로 TodoList 사이트를 개발하였습니다.<br></br>
                             학원 기간이 끝날 때쯤 선생님께서 TypeScript에 대한 장, 단점을 소개해주셨지만 기간이 짧아 깊이 있게 배우지는 못하였습니다.<br></br>
-                            저는 코딩 비전공자이기에 다양한 코드에 대한 경험과 이해가 부족하지만 새로운 언어에 대해서 직접 부딪혀가면서 배우고 극복해 나가고자 하였습니다.<br></br>
+                            저는 코딩 비전공자이기에 다양한 코드에 대한 경험과 이해가 부족하지만 새로운 언어에 대해서 <strong>직접 부딪혀가면서 배우고 극복해 나가고자</strong> 하였습니다.<br></br>
                             먼저 TypeScript를 짧게 배운 것으로만 끝내기 아쉬워 개인 프로젝트를 TypeScript로 활용하며 코드에 익숙해지기 위해서 노력했습니다.
                         </li>
                     </ul>
@@ -32,9 +32,8 @@ const ProThr = () => {
                         <li><span>개발기간</span> : 2022. 11. 05. ~ 2022. 11. 06.</li>
                     </ul>
                     <ul>
-                        <li><span>Client</span> : React, TypeScript, SCSS</li>
+                        <li><span>Client</span> : React, TypeScript, Sass</li>
                         <li><span>Server</span> : Vercel</li>
-                        <li><span>Library</span> : React, SCSS</li>
                     </ul>
                 </div>
                 <div id='link'>

@@ -35,11 +35,12 @@ const ProOne = () => {
                 <div id='info'>
                     <ul>
                         <li>
-                            포트폴리오 용도로 제작한 웹사이트입니다.<br></br>
+                            <strong>포트폴리오</strong> 용도로 제작한 웹사이트입니다.<br></br>
                             지금 보고 있는 바로 이 웹사이트에 해당합니다.<br></br>
-                            순수 React로 개발한 프로젝트입니다.<br></br>
-                            현재 반응형은 제작중에 있습니다.<br></br>
-                            계속 업데이트해나갈 예정입니다.<br></br>
+                            순수 <strong>React</strong>로 개발한 프로젝트입니다.<br></br>
+                            Ant Design의 Carousel을 사용하여 슬라이드 효과를 주었고,<br></br>
+                            <strong>Vercel</strong>을 이용하여 배포하였습니다.<br></br>
+                            현재 반응형은 제작중에 있습니다. 계속 업데이트 해나갈 예정입니다.<br></br>
                         </li>
                     </ul>
                     <ul>
@@ -47,9 +48,8 @@ const ProOne = () => {
                         <li><span>개발기간</span> : 2022. 11. 01. ~ 2022. 11. 05.</li>
                     </ul>
                     <ul>
-                        <li><span>Client</span> : React, JavaScript, SCSS</li>
+                        <li><span>Client</span> : React, JavaScript, Sass</li>
                         <li><span>Server</span> : Vercel</li>
-                        <li><span>Library</span> : React, SCSS</li>
                     </ul>
                 </div>
                 <div id='link'>

@@ -15,7 +15,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div>
-                    <div>Backend</div>
+                    <div>Backend/DataBase</div>
                     <div>
                         <ul>
                             <li><img src='./image/PHP.png' alt=''></img></li>
@@ -23,11 +23,12 @@ const Skills = () => {
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div className='version'>
                     <div>Version Control</div>
                     <div>
                         <ul>
                             <li><img src='./image/git.jpg' alt=''></img></li>
+                            <li><img src='./image/gitt.jpg' alt=''></img></li>
                         </ul>
                     </div>
                 </div>

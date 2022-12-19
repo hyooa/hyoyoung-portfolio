@@ -34,13 +34,16 @@
                 font-weight: 600;
                 position: relative;
 
-                &:hover {
+                &.redd {
                     color: #fc1a40;
 
                     span {
                         display: block;
                     }
                 }
+                // &.redd {
+                //     color: red;
+                // }
 
                 span {
                     display: none;

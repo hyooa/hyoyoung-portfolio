@@ -1,15 +1,19 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './header.scss';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
-    const [color, setColor] = useState("");
 
-    window.onload = function() {
-
-        const red = document.querySelector('.red');
-        red.addEventListener('click', () => {
-            red.classList.toggle('redd');
+    function onClick(e) {
+        let color = document.querySelectorAll('.red')
+        color.forEach(function (re, i) {
+            if (e.currentTarget === re) {
+                re.classList.add('on')
+            } else {
+                re.classList.remove('on')
+            }
         })
+        // console.log(e.currentTarget);
     }
 
     return (
@@ -19,10 +23,10 @@ const Header = () => {
             </div>
             <div id='list'>
                 <ul>
-                    <li className='red'><span></span><a href='/'>ABOUT ME</a></li>
-                    <li className='red'><span></span><a href='/skills'>SKILLS</a></li>
-                    <li className='red'><span></span><a href='/project'>PROJECT</a></li>
-                    <li className='red'><span></span><a href='/career'>CAREER</a></li>
+                    <Link to='/'><input type="button" onClick={onClick} className='red' value="ABOUT ME"></input></Link>
+                    <Link to='/skills'><input type="button" onClick={onClick} className='red' value="SKILLS"></input></Link>
+                    <Link to='/project'><input type="button" onClick={onClick} className='red' value="PROJECT"></input></Link>
+                    <Link to='/career'><input type="button" onClick={onClick} className='red' value="CAREER"></input></Link>
                 </ul>
             </div>
         </div>

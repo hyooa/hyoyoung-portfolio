@@ -7,7 +7,6 @@
     width: 100%;
     min-width: 1200px;
     background-color: #ffbfc3;
-    // @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Noto+Sans+KR&family=Noto+Sans:wght@800&display=swap');
 
     #name {
         width: 60%;
@@ -17,7 +16,6 @@
             font-weight: 900;
             color: #fff;
             line-height: 2;
-            // font-family: 'Merriweather', serif;
             padding-left: 20px;
         }
     }
@@ -25,36 +23,17 @@
     #list {
         ul {
             display: flex;
-            line-height: 5;
+            margin-top: 40px;
 
-            li {
-                padding: 0 20px;
-                font-size: 1.2em;
+            .red {
                 color: #fff;
-                font-weight: 600;
-                position: relative;
+                padding: 0 10px;
+                border: none;
+                background: none;
+                font-size: 1.05em;
 
-                &.redd {
+                &.on {
                     color: #fc1a40;
-
-                    span {
-                        display: block;
-                    }
-                }
-                // &.redd {
-                //     color: red;
-                // }
-
-                span {
-                    display: none;
-                    position: absolute;
-                    top: 40%;
-                    left: 12%;
-                    transform: translate(-50%, -50%);
-                    border-radius: 50%;
-                    background-color: #fc1a40;
-                    width: 8px;
-                    height: 8px;
                 }
             }
         }

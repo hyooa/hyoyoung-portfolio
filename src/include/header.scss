@@ -26,6 +26,7 @@
             margin-top: 40px;
 
             .red {
+                cursor: pointer;
                 color: #fff;
                 padding: 0 10px;
                 border: none;
@@ -34,6 +35,99 @@
 
                 &.on {
                     color: #fc1a40;
+                }
+            }
+        }
+    }
+
+    #toggle {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 1180px) {}
+
+@media screen and (max-width : 480px) {
+    #header {
+        min-width: 300px;
+        padding-bottom: 50px;
+        position: relative;
+        height: 100%;
+
+        #name {
+            width: 100%;
+            text-align: left;
+        }
+
+        #list {
+            display: none;
+        }
+
+        #toggle {
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #222;
+            width: 100%;
+
+            .span {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 30px;
+                right: 20px;
+                span {
+                    margin: 2px 0;
+                    width: 35px;
+                    height: 5px;
+                    background-color: #fff;
+                }
+                p {
+                    font-size: 0.8em;
+                    color: #fff;
+                }
+            }
+
+            .last.popup {
+                display: block;
+            }
+            .last {
+                display: none;
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100vh;
+                .span2 {
+                    position: absolute;
+                    top: 10px;
+                    right: 15px;
+                    span {
+                        color: #fc1a40;
+                        font-size: 2.5em;
+                        font-weight: bold;
+                    }
+                }
+                .link {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 100%;
+                    width: 200px;
+                    background-color: #f7f9fb;
+    
+                    .red {
+                        cursor: pointer;
+                        color: #222;
+                        margin: 30px 10px;
+                        border: none;
+                        background: none;
+                        font-size: 1.05em;
+    
+                        &.on {
+                            color: #fc1a40;
+                        }
+                    }
                 }
             }
         }

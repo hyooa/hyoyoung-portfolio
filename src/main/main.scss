@@ -6,8 +6,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
-    // font-family: 'Noto Sans KR', sans-serif;
 
     >h1 {
         font-size: 3em;
@@ -53,6 +51,7 @@
 
                     >ul {
                         padding-left: 25px;
+
                         li {
                             position: relative;
                             font-size: 1.6em;
@@ -93,6 +92,7 @@
                 h1 {
                     font-size: 2.2em;
                     color: #444444;
+
                     span {
                         color: rgb(255, 143, 162);
                     }
@@ -147,6 +147,66 @@
                         a {
                             color: #fc1a40;
                             text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1180px) {}
+
+@media screen and (max-width : 480px) {
+    #main {
+        height: 100%;
+        width: 100%;
+        > h1 {
+            min-width: 200px;
+            font-size: 2em;
+            height: 20px;
+        }
+
+        #mainBox {
+            max-width: 430px;
+            min-width: 350px;
+
+            #D {
+                display: none;
+            }
+
+            #introduce {
+                width: 90%;
+
+                #top {
+                    height: 33%;
+
+                    h1 {
+                        font-size: 1.8em;
+                    }
+
+                    >div:last-child {
+                        padding-top: 50px;
+                        font-size: 1em;
+                    }
+                }
+
+                #bottom {
+                    height: 67%;
+                    display: block;
+                    width: 90%;
+
+                    >div>div {
+                        display: flex;
+                        >ul {
+                            li {
+                                &:first-child {
+                                    font-size: 1.1em;
+                                }
+                                &:last-child {
+                                    font-size: 0.9em;
+                                }
+                            }
                         }
                     }
                 }

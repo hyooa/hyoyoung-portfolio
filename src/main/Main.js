@@ -11,7 +11,7 @@ const Main = () => {
         <div id='main'>
             <h1>ABOUT ME</h1>
             <div id='mainBox'>
-                <div id='D'>
+                <div id='myImg'>
                     <div><img src='../image/hyo.png' alt=''></img></div>
                     <div>
                         <ul>

@@ -33,11 +33,12 @@
         #myImg {
             width: 30%;
             height: 100%;
-            padding-left: 50px;
             padding-top: 30px;
+            margin-left: 50px;
 
             >div {
                 flex-wrap: wrap;
+                text-align: center;
 
                 &:first-child {
                     height: 60%;
@@ -50,7 +51,6 @@
                     justify-content: center;
 
                     >ul {
-                        padding-left: 25px;
 
                         li {
                             position: relative;
@@ -63,18 +63,16 @@
             }
 
             img {
-                width: 83%;
-                height: 85%;
+                width: 330px;
                 border-radius: 50%;
                 background-color: #ffbfc3;
-                margin: 50px;
+                margin: 50px auto;
             }
         }
 
         #introduce {
             align-items: center;
             width: 70%;
-            // font-size: 18px;
             text-align: left;
 
             #top {
@@ -83,7 +81,6 @@
                 padding: 50px 0 20px;
 
                 >div:first-child {
-                    // padding-top: 40px;
                     display: flex;
                     align-items: center;
                     width: 70%;
@@ -171,7 +168,7 @@
             max-width: 430px;
             min-width: 350px;
 
-            #D {
+            #myImg {
                 display: none;
             }
 

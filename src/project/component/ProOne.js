@@ -25,13 +25,13 @@ const ProOne = () => {
                         </Carousel>
                     </div>
                 </div>
-                <div>
+                <div id='none'>
                     <img className='tablet' src='./image/tablet.png' alt=''></img>
                     {/* <img className='img2' src='./image/hyo.png' alt=''></img> */}
                 </div>
-                <div>
+                <div id='none'>
                     <img className='mobile' src='./image/mobile.png' alt=''></img>
-                    {/* <img className='img3' src='./image/hyo.png' alt=''></img> */}
+                    <img className='img3' src='./image/mo.png' alt=''></img>
                 </div>
             </div>
             <div>

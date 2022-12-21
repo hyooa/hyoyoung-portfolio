@@ -4,16 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
 
-    function popUp(e){
+    function popUp(){
         document.querySelector('.last').classList.toggle('popup');
-        const color = document.querySelectorAll('.red')
-        color.forEach(function (re, i) {
-            if (e.currentTarget === re) {
-                re.classList.add('on')
-            } else {
-                re.classList.remove('on')
-            }
-        })
     }
 
     function onClick(e) {

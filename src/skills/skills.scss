@@ -31,14 +31,17 @@
         height: 70%;
         background-color: #fff;
         display: flex;
+
         .version {
             img {
                 width: 60%;
             }
         }
-        > div {
+
+        >div {
             width: 25%;
-            >div{
+
+            >div {
                 &:first-child {
                     font-size: 1.3em;
                     padding-top: 10px;
@@ -49,22 +52,60 @@
                     width: 80%;
                     border-bottom: 5px solid #fbedea;
                 }
+
                 &:last-child {
                     padding-top: 30px;
                 }
             }
+
             ul {
                 display: flex;
                 flex-direction: column;
             }
+
             #dep {
                 img {
                     padding-bottom: 10px;
                 }
             }
         }
+
         img {
             width: 45%;
+        }
+    }
+}
+
+@media screen and (max-width : 1180px) {}
+
+@media screen and (max-width : 480px) {
+    #skills {
+        height: 100%;
+        width: 100%;
+        >h1 {
+            min-width: 200px;
+            font-size: 2em;
+            height: 20px;
+        }
+        #skillBox {
+            max-width: 430px;
+            min-width: 350px;
+            display: block;
+            >div {
+                &:first-child {
+                    padding-top: 30px;
+                }
+                padding-bottom: 80px;
+                width: 100%;
+                >div:first-child {
+                    font-size: 1.6em;
+                    padding-bottom: 10px;
+                }
+            }
+            .version {
+                img {
+                }
+            }
         }
     }
 }

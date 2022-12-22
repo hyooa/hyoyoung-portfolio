@@ -7,7 +7,7 @@ const ProTwo = () => {
     Aos.init();
 
     return (
-        <div className='whiteBox boxTwo' data-aos="fade-up">
+        <div id='boxTwo' className='whiteBox boxTwo' data-aos="fade-up">
             <div>
                 <div id='swiper' className='swiper2'>
                     <img className='pc' src='./image/pc.png' alt=''></img>

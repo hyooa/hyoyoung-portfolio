@@ -27,7 +27,7 @@ const ProOne = () => {
                 </div>
                 <div id='none'>
                     <img className='tablet' src='./image/tablet.png' alt=''></img>
-                    {/* <img className='img2' src='./image/hyo.png' alt=''></img> */}
+                    <img className='img2' src='./image/tab.png' alt=''></img>
                 </div>
                 <div id='none'>
                     <img className='mobile' src='./image/mobile.png' alt=''></img>

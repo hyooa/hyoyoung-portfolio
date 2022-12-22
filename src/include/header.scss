@@ -45,11 +45,28 @@
     }
 }
 
-@media screen and (max-width : 1180px) {}
+// 탭용 820~1024
+@media screen and (max-width : 1180px) {
+    #header {
+        height: 100%;
+        position: relative;
+        min-width : 820px;
+    }
+}
 
+// 탭용 480~820
+@media screen and (max-width : 820px) {
+    #header {
+        height: 100%;
+        position: relative;
+        min-width : 480px;
+    }
+}
+
+// 모바일용 320~480
 @media screen and (max-width : 480px) {
     #header {
-        min-width: 300px;
+        min-width: 320px;
         padding-bottom: 50px;
         position: relative;
         height: 100%;

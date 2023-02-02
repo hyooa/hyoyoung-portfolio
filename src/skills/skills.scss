@@ -10,18 +10,19 @@
     font-family: 'Noto Sans KR', sans-serif;
 
     >h1 {
-        font-size: 3em;
+        font-size: 2.5em;
+        // color: #555;
         color: #fff;
+        // background-color: #999;
         background-color: #fc1a40;
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        width: 18%;
-        min-width: 300px;
-        height: 30px;
+        width: 15%;
+        min-width: 250px;
+        height: 15px;
         margin-bottom: 30px;
-        margin-top: 50px;
-        text-shadow: 1px 1px #ccc;
+        margin-top: 80px;
     }
 
     #skillBox {
@@ -31,6 +32,7 @@
         height: 70%;
         background-color: #fff;
         display: flex;
+        // box-shadow: 5px 5px 6px #dfdfdf;
 
         .version {
             img {
@@ -50,7 +52,8 @@
                     justify-content: center;
                     height: 20%;
                     width: 80%;
-                    border-bottom: 5px solid #fbedea;
+                    // border-bottom: 4px solid #999;
+                    border-bottom: 4px solid #fbedea;
                 }
 
                 &:last-child {
@@ -136,10 +139,6 @@
                     font-size: 1.6em;
                     padding-bottom: 10px;
                 }
-            }
-
-            .version {
-                img {}
             }
         }
     }

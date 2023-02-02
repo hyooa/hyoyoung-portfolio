@@ -6,6 +6,7 @@
     height: 10%;
     width: 100%;
     min-width: 1200px;
+    // background-color: #edf0f3;
     background-color: #ffbfc3;
 
     #name {
@@ -14,6 +15,7 @@
         h2 {
             font-size: 3em;
             font-weight: 900;
+            // color: #444;
             color: #fff;
             line-height: 2;
             padding-left: 20px;
@@ -27,11 +29,12 @@
 
             .red {
                 cursor: pointer;
-                color: #fff;
                 padding: 0 10px;
                 border: none;
                 background: none;
                 font-size: 1.05em;
+                // color: #444;
+                color: #fff;
 
                 &.on {
                     color: #fc1a40;
@@ -50,7 +53,7 @@
     #header {
         height: 100%;
         position: relative;
-        min-width : 820px;
+        min-width: 820px;
     }
 }
 
@@ -59,7 +62,7 @@
     #header {
         height: 100%;
         position: relative;
-        min-width : 480px;
+        min-width: 480px;
     }
 }
 
@@ -111,7 +114,8 @@
             .last.popup {
                 right: 0;
                 transition: 1s;
-                > .link {
+
+                >.link {
                     transition: 1s;
                     border-radius: 0% 0% 0% 0%;
                 }

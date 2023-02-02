@@ -10,18 +10,19 @@
     padding-top: 100px;
 
     >h1 {
-        font-size: 3em;
+        font-size: 2.5em;
+        // color: #555;
         color: #fff;
+        // background-color: #999;
         background-color: #fc1a40;
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        width: 18%;
-        min-width: 300px;
-        height: 30px;
+        width: 15%;
+        min-width: 250px;
+        height: 15px;
         margin-bottom: 30px;
-        margin-top: 33px;
-        text-shadow: 1px 1px #ccc;
+        margin-top: 55px;
     }
 
     #careerBox {
@@ -32,6 +33,7 @@
         height: 1400px;
         background-color: #fff;
         display: flex;
+        box-shadow: 5px 5px 6px #dfdfdf;
 
         >div {
             margin: 50px 30px;

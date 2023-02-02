@@ -88,7 +88,7 @@ const Main = () => {
                                 </div>
                                 <ul>
                                     <li>주소지</li>
-                                    <li>서울 마포구</li>
+                                    <li>울산 남구 삼산동</li>
                                 </ul>
                             </div>
                         </div>

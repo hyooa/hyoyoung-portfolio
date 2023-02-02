@@ -14,24 +14,24 @@ const ProOne = () => {
                     <div id='mySw'>
                         <Carousel autoplay>
                             <div>
-                                <img src='./image/port.jpg' alt=''></img>
+                                <img src='./image/po1.jpg' alt=''></img>
                             </div>
                             <div>
-                                <img src='./image/port2.jpg' alt=''></img>
+                                <img src='./image/po2.jpg' alt=''></img>
                             </div>
                             <div>
-                                <img src='./image/port3.jpg' alt=''></img>
+                                <img src='./image/po3.jpg' alt=''></img>
                             </div>
                         </Carousel>
                     </div>
                 </div>
                 <div id='none'>
                     <img className='tablet' src='./image/tablet.png' alt=''></img>
-                    <img className='img2' src='./image/tab.png' alt=''></img>
+                    <img className='img2' src='./image/tab.jpg' alt=''></img>
                 </div>
                 <div id='none'>
                     <img className='mobile' src='./image/mobile.png' alt=''></img>
-                    <img className='img3' src='./image/mo.png' alt=''></img>
+                    <img className='img3' src='./image/mo.jpg' alt=''></img>
                 </div>
             </div>
             <div>

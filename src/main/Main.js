@@ -82,7 +82,7 @@ const Main = () => {
                                     <li className='color'><a href='https://hyonyong.tistory.com'>https://hyonyong.tistory.com</a></li>
                                 </ul>
                             </div>
-                            <div>
+                            {/* <div>
                                 <div>
                                     <FaRegAddressCard size='35' />
                                 </div>
@@ -90,7 +90,7 @@ const Main = () => {
                                     <li>주소지</li>
                                     <li>울산 남구 삼산동</li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 

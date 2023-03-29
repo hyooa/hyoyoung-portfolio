@@ -15,7 +15,7 @@ const Project = () => {
                 <ProTwo />
                 <ProThr />
                 <ProFour />
-                <ProFive />
+                {/* <ProFive /> */}
             </div>
         </div>
     );

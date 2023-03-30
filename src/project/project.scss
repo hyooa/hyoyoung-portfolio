@@ -25,10 +25,16 @@
             }
 
             li button {
+                width: 15px; // 동그라미 크기 맞추기
                 color: rgba(255, 255, 255, 0);
                 border-radius: 50%;
                 border: none;
                 padding: 0px 4px;
+                background-color: rgb(189, 189, 189);
+            }
+
+            li.slick-active button {
+                background-color: yellow;
             }
         }
 
@@ -260,22 +266,12 @@
                 .swiper2 #mySw {
                     width: 72%;
                     height: 44%;
-
-                    img {}
                 }
             }
 
             #swiper {
                 .slick-dots-bottom {
                     padding-left: 220px;
-
-                    li button {
-                        background-color: rgb(189, 189, 189);
-                    }
-
-                    li.slick-active button {
-                        background-color: yellow;
-                    }
                 }
             }
         }
@@ -321,6 +317,16 @@
                 }
             }
         }
+
+        // 네번째
+        .boxFour {
+            #swiper {
+                .slick-dots-bottom {
+                    padding-left: 280px;
+                }
+            }
+        }
+
     }
 }
 
@@ -382,6 +388,7 @@
                     width: 600px;
                     height: 230px;
                     background: url('../../public/image/todo.png') no-repeat center center;
+
                     #mySw {
                         img {
                             display: none;

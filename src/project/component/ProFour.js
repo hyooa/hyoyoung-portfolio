@@ -7,14 +7,25 @@ const ProFour = () => {
     Aos.init();
 
     return (
-        <div className='whiteBox' data-aos="fade-up">
+        <div className='whiteBox boxFour' data-aos="fade-up">
             <div>
                 <div id='swiper' className='swiper2'>
                     <img className='pc' src='./image/pc.png' alt=''></img>
                     <div id='mySw'>
-                        {/* <Carousel autoplay>
-                        </Carousel> */}
-                        <div><img src='./image/recipe.png' alt=''></img></div>
+                        <Carousel autoplay>
+                            <div><img src='./image/recipe.png' alt=''></img></div>
+                            <div><img src='./image/recipe2.png' alt=''></img></div>
+                            <div><img src='./image/recipe3.png' alt=''></img></div>
+                            <div><img src='./image/recipe4.png' alt=''></img></div>
+                            <div><img src='./image/recipe5.png' alt=''></img></div>
+                            <div><img src='./image/recipe6.png' alt=''></img></div>
+                            <div><img src='./image/recipe7.png' alt=''></img></div>
+                            <div><img src='./image/recipe8.png' alt=''></img></div>
+                            <div><img src='./image/recipe9.png' alt=''></img></div>
+                            <div><img src='./image/recipe10.png' alt=''></img></div>
+                            <div><img src='./image/recipe11.png' alt=''></img></div>
+                            <div><img src='./image/recipe12.png' alt=''></img></div>
+                        </Carousel>
                     </div>
                 </div>
             </div>
@@ -35,8 +46,8 @@ const ProFour = () => {
                         <li><span>개발기간</span> : 2022. 07. ~ 2022. 07. (13일)</li>
                     </ul>
                     <ul>
-                        <li><span>Client</span> : PHP, My-SQL, JavaScript, Sass</li>
-                        <li><span>Server</span> : AWS, Dothome</li>
+                        <li><span>Client</span> : PHP, JavaScript, Sass</li>
+                        <li><span>Server</span> : My-SQL, Dothome</li>
                     </ul>
                 </div>
                 <div id='link'>
@@ -46,7 +57,7 @@ const ProFour = () => {
                                 <span>URL : </span>
                             </div>
                             <div>
-                                <a href='http://hjindo.dothome.co.kr/php/RECIPE2/'>http://hjindo.dothome.co.kr/php/RECIPE2</a>
+                                <a href='http://hyooa.dothome.co.kr/php/RECIPE2'>http://hyooa.dothome.co.kr/php/RECIPE2</a>
                             </div>
                         </li>
                         <li>

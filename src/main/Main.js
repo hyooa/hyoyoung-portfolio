@@ -32,7 +32,7 @@ const Main = () => {
                     </div>
                     <div id='bottom'>
                         <div className='left'>
-                            <div>
+                            {/* <div>
                                 <div>
                                     <MdPhoneIphone size='35' />
                                 </div>
@@ -40,7 +40,7 @@ const Main = () => {
                                     <li>연락처</li>
                                     <li>010-4824-0311</li>
                                 </ul>
-                            </div>
+                            </div> */}
                             <div>
                                 <div>
                                     <IoIosMail size='35' />

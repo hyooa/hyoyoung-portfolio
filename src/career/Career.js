@@ -31,7 +31,8 @@ const Career = () => {
                     </div>
                     <div id='bottom'>
                         <div>
-                            <h3>Frontend</h3>
+                            {/* <h3>Frontend</h3> */}
+                            <h3>STACKS</h3>
                             <div>
                                 <ul>
                                     <li>HTML5</li>
@@ -80,9 +81,23 @@ const Career = () => {
                                         간단한 웹 서버 제작 가능
                                     </li>
                                 </ul>
+                                <ul>
+                                    <li>MY-SQL</li>
+                                    <li>
+                                        간단한 쿼리문 사용 가능<br></br>
+                                        데이터베이스와 테이블 생성, 데이터 삽입과 삭제, 조인 툴 사용 가능
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>PHP</li>
+                                    <li>
+                                        로그인, 로그아웃, 회원가입 페이지 제작 가능<br></br>
+                                        게시판 제작 가능
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div>
+                        {/* <div>
                             <h3>Backend</h3>
                             <div>
                                 <ul>
@@ -100,7 +115,7 @@ const Career = () => {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

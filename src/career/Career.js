@@ -75,12 +75,6 @@ const Career = () => {
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li>jQuery</li>
-                                    <li>
-                                        JQuery를 사용하여 마우스 휠 이벤트, 스크롤 이벤트 등을 활용가능
-                                    </li>
-                                </ul>
-                                <ul>
                                     <li>Node.js</li>
                                     <li>
                                         간단한 웹 서버 제작 가능

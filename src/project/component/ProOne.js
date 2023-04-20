@@ -44,7 +44,6 @@ const ProOne = () => {
                             순수 <strong>React</strong>로 개발한 프로젝트입니다.<br></br>
                             Ant Design의 Carousel을 사용하여 슬라이드 효과를 주었고,<br></br>
                             <strong>Vercel</strong>을 이용하여 배포하였습니다.<br></br>
-                            현재 반응형은 제작중에 있습니다. 계속 업데이트 해나갈 예정입니다.<br></br>
                         </li>
                     </ul>
                     <ul>

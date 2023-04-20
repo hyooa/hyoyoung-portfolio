@@ -46,7 +46,7 @@ const ProFour = () => {
                         <li><span>개발기간</span> : 2022. 07. ~ 2022. 07. (13일)</li>
                     </ul>
                     <ul>
-                        <li><span>Client</span> : PHP, JavaScript, Sass</li>
+                        <li><span>Client</span> : PHP, JavaScript, css</li>
                         <li><span>Server</span> : My-SQL, Dothome</li>
                     </ul>
                 </div>
@@ -66,6 +66,14 @@ const ProFour = () => {
                             </div>
                             <div>
                                 <a href='https://github.com/hyooa/recipe'>https://github.com/hyooa/recipe</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>PPT : </span>
+                            </div>
+                            <div>
+                                <a href='https://docs.google.com/presentation/d/1G48_oaroMAIa-nwXJ_Gwfnhina-OUoeI/edit?usp=share_link&ouid=117407450755402319923&rtpof=true&sd=true'>ppt</a>
                             </div>
                         </li>
                     </ul>

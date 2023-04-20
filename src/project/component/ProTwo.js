@@ -51,7 +51,7 @@ const ProTwo = () => {
                     <ul>
                         <li><span>Client</span> : React, Node.js, JavaScript, Sass</li>
                         <li><span>Server</span> : Heroku, Vercel, AWS</li>
-                        <li><span>API</span> : Kakao Map</li>
+                        {/* <li><span>API</span> : Kakao Map</li> */}
                     </ul>
                 </div>
                 <div id='link'>
@@ -71,6 +71,14 @@ const ProTwo = () => {
                             <div>
                                 <a href='https://github.com/hyooa/hyo-portfolio'>https://github.com/hyooa/hyo-portfolio</a><br></br>
                                 <a href='https://github.com/hyooa/hyo-portfolio-server'>https://github.com/hyooa/hyo-portfolio-server</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>PPT : </span>
+                            </div>
+                            <div>
+                                <a href='https://docs.google.com/presentation/d/16aRXPnNlb6xvE9uKFLo-bQ93Ob8Apvb9/edit?usp=share_link&ouid=117407450755402319923&rtpof=true&sd=true'>ppt</a>
                             </div>
                         </li>
                     </ul>
